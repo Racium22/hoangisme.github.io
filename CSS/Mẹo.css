@@ -1,0 +1,33 @@
+.tips-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tip-item {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tip-item img {
+    max-width: 200px;
+    height: auto;
+}
+
+.tip-content {
+    padding: 10px;
+    flex: 1;
+}
+
+.tip-content h3 {
+    font-size: 22px;
+    color:black;
+}
